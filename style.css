@@ -1,6 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #F5F6F6;
     font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding: 0.5rem 3rem;
+}
+
+#logo{
+    color: #222429;
+    font-size: 2rem;
+}
+
+.menuLinks{
+    margin-left: auto;
+    margin-top: 1rem;
+}
+
+.menuLinks a{
+    color: #676868;
+    margin-right: 1.5rem;
+    font-size: 1.05rem;
+}
+
+#mainHeading{
+    color: #222429;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+#tagline{
+    color: #676868;
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+.searchContainer{
+    display: flex;
+    width: auto;
+}
+
+#searchBox{
+    width: 24rem;
+    height: 3rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-indent: 1rem;
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+.categoriesAndFilterContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    
+}
+
+.categories{
+    display: flex;
+}
+
+.categories a{
+    margin: 0rem 0.6rem;
+    color: #222429;
+    font-size: 1rem;
+}
+
+#latest{
+    font-weight: 600;
+}
+
+#premium{
+    color: #e82a1c;
+}
+
+#free {
+    color: #1457f5;
+}
+
+#filter{
+    color: #222429;
+    font-size: 1.5rem;
+}
+
+.shopItemsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 10rem;
+}
+
+.cardContainer{
+    width: 20rem;
+    height: 21rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+#cardImageContainer{
+    width: 18rem;
+    height: 15rem;
+    background-color: #cccccc;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-image: url("images/imageOne.png");
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#downloadText{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
 }
